@@ -20,7 +20,7 @@ services:
       MYSQL_DATABASE: drupal
       MYSQL_ROOT_PASSWORD: drupal
   drush:
-    image: drush/drush:8
+    image: drush/drush:9
     volumes:
       - site:/app
 volumes:
