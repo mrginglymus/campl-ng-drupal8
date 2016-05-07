@@ -1,0 +1,12 @@
+campl-ng:
+  css:
+    theme:
+      css/campl.min.css: {}
+      css/campl_legacy.min.css: {}
+      css/fonts.css: {}
+  js:
+    js/campl.min.js: {}
+    js/lib.min.js: {}
+    js/modernizr.min.js: {}
+  dependencies:
+    - core/jquery

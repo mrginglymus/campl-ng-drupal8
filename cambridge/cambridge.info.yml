@@ -1,0 +1,8 @@
+name: Cambridge Next-Generation Theme
+description: Drupal 8 implementaiton of CamPL-NG
+package: Cambridge
+type: theme
+version: 0.1alpha
+core: 8.x
+libraries:
+  - cambridge/campl-ng
