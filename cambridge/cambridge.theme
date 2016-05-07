@@ -1,0 +1,7 @@
+<?php
+
+function cambridge_preprocess_html(&$variables) {
+  $variables['attributes']['class'][] = 'theme-blue';
+  $variables['attributes']['class'][] = 'offcanvas';
+  $variables['attributes']['class'][] = 'offcanvas-left';
+}
